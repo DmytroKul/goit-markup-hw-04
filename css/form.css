@@ -56,10 +56,22 @@
   padding: 40px;
 }
 
+.inputtt {
+  display: block;
+  width: 448px;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+}
+.form-input:placeholder-shown {
+  border-color: #ffa000;
+}
+
 .form-field {
   margin-bottom: 10px;
   display: flex;
-  flex-direction: column;
+  width: 448px;
 }
 .form-field input::placeholder {
   color: rgba(117, 117, 117, 0.5);
