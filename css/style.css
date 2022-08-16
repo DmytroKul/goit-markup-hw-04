@@ -219,8 +219,12 @@ a {
   margin-right: 10px;
 }
 
+.icon-header:hover .contacts-list {
+  color: var(--accent-color);
+}
+
 .contacts-list {
-  color: #757575;
+  fill: #757575;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.25, 0, 0.2, 1);
 }

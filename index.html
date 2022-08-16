@@ -77,35 +77,32 @@
                     <use href="./images/svg/sprite3.svg#icon-close"></use>
                   </svg>
                 </button>
+                <p class="model-tittle">Залиште свої дані, ми вам передзвонимо</p>
+                <div class="about-model">
+                  <label
+                    ><span class="about-model-txt">Ім'я</span>
 
-                <h2 class="model-tittle">Залиште свої дані, ми вам передзвонимо</h2>
-                <div class="form-field">
-                  <label class="inputtt" class="form-lable" for="name">Ім'я</label>
-                  <input
-                    class="form-input"
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    minlength="4"
-                    maxlength="14"
-                    size="10"
-                  />
+                    <input class="about-input" type="text" name="username" placeholder="" />
+                  </label>
+                  <label
+                    ><span class="about-model-txt">Телефон</span>
+                    <input class="about-input" type="tel" id="phone" name="phone" required />
+                  </label>
+
+                  <label>
+                    <span class="about-model-txt">Пошта</span>
+
+                    <input class="about-input" type="email" name="email" placeholder="" />
+                  </label>
+                  <label>
+                    Коментар
+                    <textarea name="feedback" rows="5" placeholder="Введіть данні"></textarea>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    Погоджуюся з розсилкою та приймаю Умови договору
+                  </label>
                 </div>
-                <div class="form-field">
-                  <label for="tel">Телефон</label>
-                  <input class="inputtt" type="tel" name="tel" id="tel" placeholder="" />
-                </div>
-                <div class="form-field">
-                  <label for="email">Пошта</label>
-                  <input class="inputtt form-input" type="email" id="email" name="email" />
-                </div>
-                <label for="name" id="name" placeholder="Введіть текст">Коментар</label>
-                <input type="text" id="tet" placeholder="Введіть текст" />
-                <input type="checkbox" value="" id="scales" name="scales" />
-                <label for="scales" id="scales"
-                  >Погоджуюся з розсилкою та приймаю Умови договору</label
-                >
                 <button type="submit" class="btn-submit">Відправити</button>
               </form>
             </div>
